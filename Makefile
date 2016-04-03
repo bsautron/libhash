@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bsautron <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2016/04/03 19:27:07 by bsautron          #+#    #+#              #
+#    Updated: 2016/04/03 19:27:08 by bsautron         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libhash
 SOURCES = hash_pour_les_nuls.c
 
@@ -52,6 +64,6 @@ clean:
 	rm -rf $(OBJECTS_FOLDER)
 
 fclean: clean
-	rm -f $(NAME)
+	rm -f $(NAME).a
 
 re: fclean all
